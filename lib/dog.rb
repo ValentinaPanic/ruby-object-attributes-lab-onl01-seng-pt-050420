@@ -3,10 +3,10 @@ class Dog
 end
 
   def name=(dogs_name)
-    @dogs_name = dogs_name
+    @name = dogs_name
   end
   def name
-    @dogs_name
+    @name
   end
 end
 #fido.instance_variable_set(:@dogs_name, "Fido")
